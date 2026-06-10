@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Mamba Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header sticky-top">
+
+    <div class="topbar d-flex align-items-center">
+      <div class="container d-flex justify-content-center justify-content-md-between">
+        <div class="contact-info d-flex align-items-center">
+          <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">mafungushanebiz@gmail.com</a></i>
+          <i class="bi bi-phone d-flex align-items-center ms-4"><span>066 432 0361</span></i>
+        </div>
+        <div class="social-links d-none d-md-flex align-items-center">
+          <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div><!-- End Top Bar -->
+
+    <div class="branding d-flex align-items-cente">
+
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+
+    <a href="index.html" class="logo d-flex align-items-center">
+       <img
+            src="assets/img/logo.png"
+            alt="Mafungushane Biz Logo"
+            style="height: 120px !important; width: auto !important; max-height: none !important;">
+      </a>
+
+    <nav id="navmenu" class="navmenu">
+        <!-- menu items -->
+    </nav>
+
+</div>
+</a>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <div id="hero-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <div class="carousel-item active">
+          <img src="assets/img/hero-carousel/Car 1.png" alt="Car 1">
+          <div class="carousel-container">
+            <h2>Welcome to Mafungushane Biz<br></h2>
+            <p>We provide reliable, safe, and professional transport services tailored to your needs. From airport transfers to long-distance travel, we ensure comfort, punctuality, and excellent service every time.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/Car 2.png" alt="Car 2">
+          <div class="carousel-container">
+            <h2>Professional Transport Solutions</h2>
+            <p>Our services are designed for individuals, businesses, and groups. Whether you need staff transport or private travel, we deliver dependable solutions you can trust.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <div class="carousel-item">
+          <img src="assets/img/hero-carousel/Car 3.png" alt="Car 3">
+          <div class="carousel-container">
+            <h2>Travel with Comfort & Safety</h2>
+            <p>We prioritize your safety and comfort with well-maintained vehicles and experienced drivers, ensuring every journey is smooth and stress-free.</p>
+            <a href="#featured-services" class="btn-get-started">Get Started</a>
+          </div>
+        </div><!-- End Carousel Item -->
+
+        <a class="carousel-control-prev" href="#hero-carousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#hero-carousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+        <ol class="carousel-indicators"></ol>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>About</h2>
+        <p>Providing trusted and professional transport services across South Africa</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>Your Reliable Transport Partner</h3>
+            <img src="assets/img/about.png" class="img-fluid rounded-4 mb-4" alt="About Us">
+            <p>Mafungushane Biz Pty (Ltd) is committed to delivering high-quality transport services that meet the needs of our clients. We focus on reliability, safety, and customer satisfaction.</p>
+            <p>Whether you need airport transfers, staff transportation, or long-distance travel, our team ensures a professional and seamless experience from start to finish.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                We provide transport services at the highest level with professionalism and dedication.
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Reliable and punctual transport services</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Experienced and professional drivers</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Safe, comfortable, and well-maintained vehicles</span></li>
+              </ul>
+              <p>
+                We aim to build long-term relationships with our clients by consistently delivering excellent service and dependable transport solutions.
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="assets/img/about-2.jpg" class="img-fluid rounded-4" alt="">
+                <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-item">
+              <span>01</span>
+              <h4><a href="" class="stretched-link">Reliable Service</a></h4>
+              <p>We ensure punctual and dependable transport services you can trust at all times.</p>
+            </div>
+          </div><!-- Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-item">
+              <span>02</span>
+              <h4><a href="" class="stretched-link">Professional Team</a></h4>
+              <p>Our drivers and staff are experienced, trained, and committed to customer satisfaction.</p>
+            </div>
+          </div><!-- Card Item -->
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-item">
+              <span>03</span>
+              <h4><a href="" class="stretched-link">Safe & Comfortable</a></h4>
+              <p>We prioritize your safety with well-maintained vehicles and comfortable travel experiences.</p>
+            </div>
+          </div><!-- Card Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section light-background">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-emoji-smile"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-journal-richtext"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-headset"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6 d-flex flex-column align-items-center">
+            <i class="bi bi-people"></i>
+            <div class="stats-item">
+              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hard Workers</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>We offer a wide range of transport services tailored to meet your needs</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-activity"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Airport Transfers</h3>
+              </a>
+              <p>On-time and reliable pick-up and drop-off services to and from all major airports.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-broadcast"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Staff Transportation</h3>
+              </a>
+              <p>Efficient and organized transport solutions for employees and company teams.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Scheduled & Group Tours</h3>
+              </a>
+              <p>Comfortable transport for group trips, events, and organized tours.</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-bounding-box-circles"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Local Travel</h3>
+              </a>
+              <p>Flexible and convenient transport within cities and surrounding areas.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Interprovincial Travel</h3>
+              </a>
+              <p>Safe and comfortable long-distance travel across provinces.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Transport Consultation</h3>
+              </a>
+              <p>Professional advice and planning for your transport and travel needs.</p>
+              <a href="service-details.html" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Frequently Asked Questions</h2>
+        <p>Find answers to common questions about our transport services</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Do you offer airport transfer services?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+               Yes, we provide reliable and punctual airport transfer services to and from major airports. We ensure timely pickups and drop-offs for a stress-free travel experience.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Can you provide transport for companies or staff?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+               Yes, we offer staff transportation services for businesses. We ensure employees are transported safely, efficiently, and on time.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Do you offer long-distance or interprovincial travel?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+              Absolutely. We provide comfortable and safe interprovincial travel services for individuals and groups across South Africa.
+      </p>
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>Can I book transport for a group or event?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+               Yes, we specialize in scheduled and group tours. Whether it's events, school trips, or business outings, we provide reliable group transport solutions.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+        <div class="row faq-item" data-aos="fade-up" data-aos-delay="500">
+          <div class="col-lg-5 d-flex">
+            <i class="bi bi-question-circle"></i>
+            <h4>How can I book your services?</h4>
+          </div>
+          <div class="col-lg-7">
+            <p>
+               You can contact us directly via phone or email to make a booking or inquiry. We are always ready to assist you with your transport needs.
+            </p>
+          </div>
+        </div><!-- End F.A.Q Item-->
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <p>18 Merriment Cres, Blue Downs, Western Cape, 1700</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-telephone"></i>
+              <h3>Call Us</h3>
+              <p>066 432 0361</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="info-item d-flex flex-column justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-envelope"></i>
+              <h3>Email Us</h3>
+              <p>mafungushanebiz@gmail.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+        </div>
+
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="400">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+            </div>
+
+            <div class="col-md-6 ">
+              <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+            </div>
+
+            <div class="col-md-12">
+              <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+            </div>
+
+            <div class="col-md-12">
+              <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form><!-- End Contact Form -->
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Mamba</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>18 Merriment Cres, Blue Downs, Western Cape, 1700</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>066 432 0361</span></p>
+            <p><strong>Email:</strong> <span>mafungushanebiz@gmail.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
